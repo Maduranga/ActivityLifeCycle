@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Activity1" />
+    
+<Button
+        android:id="@+id/Act1_send_new_Intent_to_Act2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Activity2 new Intent" />
+        
+<Button
+        android:id="@+id/Act1_send_new_Intent_to_Act3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Activity3 new Intent" />
+        
+</LinearLayout>
